@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us — Suraj Gyan Mahavidyalaya, Panchanan Chauraha, Konch (Jalaun) 285205</title>
+  <meta name="description" content="Contact Suraj Gyan Mahavidyalaya, Konch (Jalaun): phone +91 94155 88183 / +91 73882 60488, Panchanan Chauraha, Jalaun Road, Konch, U.P. 285205. Map, WhatsApp and enquiry form.">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#761F25">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <script>(function(){try{document.documentElement.setAttribute("data-theme",localStorage.getItem("sgm-theme")||"light");}catch(e){}})();</script>
+</head>
+<body data-root="../">
+  <script src="../js/page-transition.js"></script>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="site-header"></div>
+
+  <main id="main">
+    <section class="page-banner">
+      <div class="container">
+        <p class="breadcrumb"><a href="../index.html">Home</a> › Contact</p>
+        <h1 data-hi="संपर्क करें">Contact Us</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div>
+          <div class="section-head" style="margin-bottom:1.2rem">
+            <h2 data-hi="हमसे जुड़ें">Get in Touch</h2>
+            <p>Call, WhatsApp, email or visit the office — we're happy to help with admissions and courses.</p>
+          </div>
+
+          <!-- EDIT: official phones / email live here and in js/main.js (COLLEGE object) -->
+          <div class="contact-cards">
+            <a class="card contact-card" href="tel:+919415588183">
+              <span class="icon" aria-hidden="true">&#128222;</span>
+              <div>
+                <strong>Call the Office</strong>
+                <span>+91 94155 88183 · +91 73882 60488</span>
+                <span class="muted">Mon–Sat, 9 AM – 4 PM (EDIT)</span>
+              </div>
+            </a>
+            <a class="card contact-card" href="https://wa.me/919415588183" target="_blank" rel="noopener">
+              <span class="icon" aria-hidden="true">&#128172;</span>
+              <div>
+                <strong>WhatsApp</strong>
+                <span>Chat with the college</span>
+                <span class="muted">Quick replies on admission queries</span>
+              </div>
+            </a>
+            <a class="card contact-card" href="mailto:info@surajgyanmahavidyalaya.edu.in">
+              <span class="icon" aria-hidden="true">&#9993;&#65039;</span>
+              <div>
+                <strong>Email</strong>
+                <span>info@surajgyanmahavidyalaya.edu.in</span>
+                <span class="muted">(EDIT: official email address)</span>
+              </div>
+            </a>
+            <div class="card contact-card">
+              <span class="icon" aria-hidden="true">&#128205;</span>
+              <div>
+                <strong>Address</strong>
+                <span>Panchanan Chauraha, Jalaun Road, Konch, Jalaun, Uttar Pradesh 285205</span>
+                <span class="muted">About 3-acre campus · Est. 2010</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="margin-top:1.2rem">
+            <h3 style="font-size:1.1rem">Follow us</h3>
+            <p class="muted" style="margin-bottom:.8rem">Official Facebook page of the college.</p>
+            <a class="btn btn-outline" href="https://www.facebook.com/sgmkonch/" target="_blank" rel="noopener" data-hi="फेसबुक पेज">Visit our Facebook page</a>
+          </div>
+        </div>
+
+        <!-- =========================== MAP ============================ -->
+        <!-- EDIT: if Google gives you an official embed for the college, paste it here -->
+        <div class="map-card reveal">
+          <h3 style="font-size:1.1rem;margin-bottom:.7rem">Find us on the map</h3>
+          <iframe
+            title="Suraj Gyan Mahavidyalaya on Google Maps"
+            src="https://maps.google.com/maps?q=Suraj%20Gyan%20Mahavidyalaya%20Konch%20Jalaun&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+            width="100%" height="380" style="border:0;border-radius:12px" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= CONTACT FORM ========================= -->
+    <section class="section alt">
+      <div class="container">
+        <div class="section-head center">
+          <h2 data-hi="संदेश भेजें">Send a Message</h2>
+          <p>Have a question about courses or admissions? Send it here. (Demo form — front-end only.)</p>
+        </div>
+        <div class="card" style="max-width:760px;margin-inline:auto">
+          <form class="js-form" id="contactForm" action="#" method="post">
+            <div class="form-grid">
+              <div class="field">
+                <label for="c-name">Full Name <span class="req">*</span></label>
+                <input id="c-name" name="name" type="text" autocomplete="name" required>
+                <span class="field-error" aria-live="polite"></span>
+              </div>
+              <div class="field">
+                <label for="c-phone">Mobile Number <span class="req">*</span></label>
+                <input id="c-phone" name="phone" type="tel" inputmode="tel" placeholder="+91 98765 43210" required>
+                <span class="field-error" aria-live="polite"></span>
+              </div>
+              <div class="field full">
+                <label for="c-email">Email (optional)</label>
+                <input id="c-email" name="email" type="email" autocomplete="email">
+                <span class="field-error" aria-live="polite"></span>
+              </div>
+              <div class="field full">
+                <label for="c-msg">Message <span class="req">*</span></label>
+                <textarea id="c-msg" name="message" rows="5" required></textarea>
+                <span class="field-error" aria-live="polite"></span>
+              </div>
+              <div class="field full">
+                <button class="btn btn-gold" type="submit">Send Message</button>
+                <p class="form-note" hidden></p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="../media-config.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

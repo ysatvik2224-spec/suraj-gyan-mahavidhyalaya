@@ -1,0 +1,370 @@
+{
+  "$schemaNote": "Full editable content of the Suraj Gyan Mahavidyalaya website in JSON. Source: js/main.js (marked EDIT sections), media-config.js (MEDIA), pages/courses.html (course detail blocks), pages/admissions.html, pages/about.html (leadership messages) and page titles/meta. Image paths are root-relative.",
+  "website": "Suraj Gyan Mahavidyalaya",
+  "url": "https://surajgyanmahavidyalaya.edu.in/",
+
+  "college": {
+    "name": "Suraj Gyan Mahavidyalaya",
+    "tagline": "Learn · Teach · Grow",
+    "address": "Panchanan Chauraha, Jalaun Road, Konch, Jalaun, Uttar Pradesh 285205",
+    "phones": ["+91 94155 88183", "+91 73882 60488"],
+    "whatsapp": "919415588183",
+    "email": "info@surajgyanmahavidyalaya.edu.in",
+    "established": 2010,
+    "affiliation": "Bundelkhand University, Jhansi",
+    "approval": "NCTE Approved",
+    "facebook": "https://www.facebook.com/sgmkonch/",
+    "instagram": "",
+    "officeHours": "9 AM – 4 PM (Mon–Sat) (EDIT)"
+  },
+
+  "navigation": [
+    { "label": "Home", "hindi": "होम", "href": "index.html" },
+    { "label": "About", "hindi": "परिचय", "href": "pages/about.html" },
+    { "label": "Academics", "hindi": "शैक्षणिक", "href": "pages/academics.html" },
+    { "label": "Courses", "hindi": "पाठ्यक्रम", "href": "pages/courses.html" },
+    { "label": "Admissions", "hindi": "प्रवेश", "href": "pages/admissions.html" },
+    { "label": "Gallery", "hindi": "गैलरी", "href": "pages/gallery.html" },
+    { "label": "Facilities", "hindi": "सुविधाएँ", "href": "pages/facilities.html" },
+    { "label": "Students", "hindi": "छात्र", "href": "pages/students.html" },
+    { "label": "Contact", "hindi": "संपर्क", "href": "pages/contact.html" }
+  ],
+
+  "courses": [
+    {
+      "id": "bed", "icon": "🎓", "name": "B.Ed. — Bachelor of Education", "group": "Teacher Education", "seats": 100,
+      "blurb": "Our flagship teacher-education programme preparing graduates for classrooms in schools across Uttar Pradesh and beyond.",
+      "details": {
+        "intake": "100 seats",
+        "duration": "As prescribed by the university — contact the college office",
+        "eligibility": "As per Bundelkhand University norms — contact the college office; admission may involve merit / entrance test as applicable",
+        "fee": "Contact the college for the current session fee structure",
+        "affiliation": "Bundelkhand University, Jhansi",
+        "approval": "NCTE",
+        "note": "The B.Ed. programme prepares graduates for a career in teaching with coursework in child development, pedagogy, subject methodology and practice teaching."
+      }
+    },
+    {
+      "id": "bled", "icon": "🌎", "name": "B.El.Ed. — Bachelor of Elementary Education", "group": "Teacher Education", "seats": 50,
+      "blurb": "Elementary-level teacher training focused on child development, pedagogy and activity-based learning.",
+      "details": {
+        "intake": "50 seats",
+        "duration": "As prescribed by the university — contact the college office",
+        "eligibility": "As per university norms — contact the college office",
+        "fee": "Contact the college for the current session fee structure",
+        "affiliation": "Bundelkhand University, Jhansi",
+        "note": "Elementary-level teacher training focused on child development, activity-based learning and classroom practice for primary and elementary stages."
+      }
+    },
+    {
+      "id": "ba", "icon": "🎭", "name": "B.A. — Bachelor of Arts", "group": "Arts & Commerce", "seats": 420,
+      "blurb": "Undergraduate arts degree with subjects offered by the university, as per availability at the college.",
+      "subjects": ["Hindi", "English", "History", "Geography", "Home Science", "Political Science", "Education"],
+      "details": {
+        "intake": "As per university norms — contact the college office",
+        "duration": "Contact the college office",
+        "eligibility": "10+2 merit-based admission as per university rules — contact the office",
+        "fee": "Contact the college for the current session fee structure",
+        "subjects": "Combinations offered by the university, as available at the college"
+      }
+    },
+    {
+      "id": "bcom", "icon": "💰", "name": "B.Com — Bachelor of Commerce", "group": "Arts & Commerce", "seats": 60,
+      "blurb": "Commerce graduation covering accountancy, business studies and economics fundamentals.",
+      "details": {
+        "intake": "As per university norms — contact the college office",
+        "duration": "Contact the college office",
+        "eligibility": "10+2 merit-based admission as per university rules — contact the office",
+        "fee": "Contact the college for the current session fee structure",
+        "covers": "Accountancy, business studies and economics fundamentals"
+      }
+    },
+    {
+      "id": "bsc", "icon": "🧪", "name": "B.Sc. — Bachelor of Science", "group": "Science & Computing", "seats": 240,
+      "blurb": "Science graduation with subject combinations offered by the university, as per availability.",
+      "subjects": ["Physics", "Chemistry", "Mathematics", "Zoology", "Botany"],
+      "details": {
+        "intake": "As per university norms — contact the college office",
+        "duration": "Contact the college office",
+        "eligibility": "10+2 merit-based admission as per university rules — contact the office",
+        "fee": "Contact the college for the current session fee structure",
+        "subjects": "Science combinations offered by the university, as available at the college"
+      }
+    },
+    {
+      "id": "bca", "icon": "💻", "name": "B.C.A. — Bachelor of Computer Applications", "group": "Science & Computing", "seats": 60,
+      "blurb": "Computer applications degree building programming, database and software development skills.",
+      "details": {
+        "intake": "As per university norms — contact the college office",
+        "duration": "Contact the college office",
+        "eligibility": "As per university rules — contact the college office",
+        "fee": "Contact the college for the current session fee structure",
+        "covers": "Programming, databases, web technologies and software projects"
+      }
+    },
+    {
+      "id": "ma", "icon": "✅", "name": "M.A. — Master of Arts", "group": "Master's", "seats": null,
+      "blurb": "Postgraduate degree in the arts, building on a graduation background with advanced specialisation and research orientation.",
+      "subjects": ["Hindi", "English", "Geography", "Political Science"],
+      "details": {
+        "intake": "As per university norms — contact the college office",
+        "duration": "Contact the college office",
+        "eligibility": "Graduation as per university rules — contact the college office",
+        "fee": "Contact the college for the current session fee structure",
+        "subjects": "Hindi, English, Geography, Political Science"
+      }
+    }
+  ],
+  "courseGroups": ["Teacher Education", "Arts & Commerce", "Science & Computing", "Library Science", "Master's"],
+
+  "facilities": [
+    { "id": "smart-classroom", "icon": "🏫", "title": "Smart Classrooms", "text": "Spacious, well-lit classrooms with blackboard/whiteboard teaching aids and seating for full batches." },
+    { "id": "library", "icon": "📚", "title": "Library & Reading Room", "text": "Textbooks, reference books, journals and competitive-exam material with a quiet reading area." },
+    { "id": "science-lab", "icon": "🧪", "title": "Science Laboratories", "text": "Practical-work arrangements for science subject demonstrations and experiments." },
+    { "id": "computer-lab", "icon": "💻", "title": "Computer Lab", "text": "Systems for practical computer classes, projects, internet research and digital literacy." },
+    { "id": "seminar-hall", "icon": "📢", "title": "Seminar Hall", "text": "A hall for seminars, guest lectures, orientation programmes and departmental events." },
+    { "id": "sports", "icon": "⚽", "title": "Sports & Games", "text": "Ground for cricket, kabaddi and athletics plus indoor games for students' all-round development." },
+    { "id": "common-room", "icon": "👮", "title": "Common Rooms", "text": "Separate common rooms for boys and girls with safety and anti-ragging measures in place." },
+    { "id": "canteen", "icon": "☕", "title": "Canteen", "text": "Hygienic refreshment counter serving tea, snacks and lunch at student-friendly prices." },
+    { "id": "campus", "icon": "🏢", "title": "Green Campus", "text": "About 3 acres of peaceful, green campus on Panchanan Chauraha, Jalaun Road, Konch." }
+  ],
+
+  "faculty": [
+    { "name": "Dr. ————————— (EDIT)", "dept": "Education / B.Ed. Department", "photo": "" },
+    { "name": "Mr. ————————— (EDIT)", "dept": "Arts & Commerce Department", "photo": "" },
+    { "name": "Ms. ————————— (EDIT)", "dept": "Science & Computing Department", "photo": "" },
+    { "name": "Mr. ————————— (EDIT)", "dept": "Library & Physical Education", "photo": "" }
+  ],
+
+  "testimonials": [
+    { "quote": "EDIT - replace with a real student or alumnus review of the college.", "who": "Student Name (EDIT)", "role": "B.Ed. batch" },
+    { "quote": "EDIT - a short line about teaching quality, discipline or campus life here.", "who": "Student Name (EDIT)", "role": "B.El.Ed. batch" },
+    { "quote": "EDIT - an alumnus review, placement or higher-study experience here.", "who": "Alumnus Name (EDIT)", "role": "B.A. batch" }
+  ],
+
+  "notices": [
+    { "date": "2026-04-10", "cat": "Admissions", "title": "Admission open — B.Ed. & B.El.Ed. session 2026-27", "body": "Enquiry forms are being accepted at the college office. Contact the office for the current process and dates. (EDIT)" },
+    { "date": "2026-04-02", "cat": "Exams", "title": "Examination timetable — semester/yearly exams", "body": "Detailed date sheet will be displayed on the notice board and published here. (EDIT)" },
+    { "date": "2026-03-25", "cat": "Events", "title": "Seminar on New Education Policy & modern teaching methods", "body": "The Department of Education organised a seminar for B.Ed. trainees. (EDIT)" },
+    { "date": "2026-03-15", "cat": "Admissions", "title": "Counselling & document verification schedule", "body": "Bring original documents along with two photocopies. (EDIT)" },
+    { "date": "2026-03-01", "cat": "Exams", "title": "Result declaration — internal assessment", "body": "Results are displayed on the notice board and shared with class representatives. (EDIT)" },
+    { "date": "2026-02-20", "cat": "Events", "title": "Annual function & prize distribution", "body": "Cultural programme, felicitation and sports prizes. (EDIT)" }
+  ],
+  "events": [
+    { "date": "2026-05-05", "title": "Orientation & registration week", "body": "New-batch orientation, syllabus walkthrough and ID card distribution. (EDIT)" },
+    { "date": "2026-05-20", "title": "Inter-college sports meet", "body": "Cricket, kabaddi, athletics and indoor games. (EDIT)" },
+    { "date": "2026-06-10", "title": "Career & higher-study guidance camp", "body": "Guest lectures on B.Ed. entrance, TET and further studies. (EDIT)" }
+  ],
+
+  "admissions": {
+    "intro": "Admission is generally merit-based on 10+2 marks for undergraduate courses. B.Ed. and other professional courses may involve an entrance examination / counselling as per university norms. (EDIT: confirm current session rules with the office.)",
+    "steps": [
+      { "title": "Enquire / fill the form", "text": "Submit the enquiry form on this page, call the office, or visit the college in person." },
+      { "title": "Collect the application form", "text": "Collect the admission form from the college office (or as directed by the university)." },
+      { "title": "Document verification", "text": "Bring original documents with two photocopies for verification on the notified date." },
+      { "title": "Merit list / counselling", "text": "Selection as per 10+2 merit, entrance test or counselling — whichever applies to your course." },
+      { "title": "Fee payment & confirmation", "text": "Pay the course fee at the office, collect the receipt and confirm your seat." }
+    ],
+    "documents": [
+      "High School (10th) mark sheet & certificate",
+      "Intermediate (12th) mark sheet & certificate",
+      "Transfer Certificate (TC) from the previous institution",
+      "Character Certificate",
+      "Caste / income certificate (if applicable)",
+      "Passport-size photographs (6–8)",
+      "Aadhaar copy & any university-required forms"
+    ],
+    "eligibility": [
+      { "course": "B.A. / B.Com / B.Sc.", "rule": "10+2, merit-based as per university rules" },
+      { "course": "B.C.A.", "rule": "As per university norms — confirm with the office" },
+      { "course": "B.Ed. / B.El.Ed.", "rule": "Graduation as per university norms; entrance test / counselling may apply" }
+    ],
+    "faq": [
+      { "q": "How do I get admission to this college?", "a": "Fill the enquiry form below or visit the office. UG admissions are generally based on 10+2 merit; B.Ed. and professional courses may require an entrance test or counselling as per Bundelkhand University norms." },
+      { "q": "What is the admission process for B.Ed.?", "a": "Submit the application with graduation marks, then appear for the university process (entrance/counselling) if applicable, and complete document verification and fee payment at the college office. Confirm the current session dates with the office." },
+      { "q": "Which documents are mandatory?", "a": "10th and 12th mark sheets, Transfer Certificate, Character Certificate, photographs and caste/income certificate where applicable. Carry originals plus two photocopies." },
+      { "q": "What are the course fees?", "a": "Fee structures change every session. Please contact the college office for the current fee details of your course." },
+      { "q": "Are hostel facilities available?", "a": "Contact the college office for current hostel and transport facility information." },
+      { "q": "Is there an entrance exam for B.Ed.?", "a": "B.Ed. admission may involve an entrance examination or counselling conducted by the university/authority as applicable for the session. Please verify with the office." }
+    ]
+  },
+
+  "leadershipMessages": [
+    {
+      "role": "President",
+      "heading": "From the President's Desk",
+      "lead": "Dear Students, Parents, and Visitors,",
+      "paragraphs": [
+        "It gives me immense pleasure to welcome you to Suraj Gyan Mahavidyalaya.",
+        "Education is not just about gaining knowledge or earning a degree; it is about developing good values, building confidence, discovering talents, and preparing ourselves for the challenges of life. At Suraj Gyan Mahavidyalaya, we believe that every student has the potential to achieve great things when provided with the right guidance, opportunities, and encouragement.",
+        "Our aim is to provide a positive and supportive learning environment where students can grow academically, socially, and personally. We focus not only on academic excellence but also on discipline, character building, creativity, and practical knowledge.",
+        "We strongly believe that the youth of today are the leaders of tomorrow. Therefore, our responsibility is to guide our students towards a bright future by inspiring them to think independently, work hard, and face every challenge with confidence and determination.",
+        "I encourage every student to dream big, stay focused on their goals, respect their values, and never stop learning. Remember, success is not achieved in a single day; it is the result of continuous effort, dedication, and patience.",
+        "Let us work together to create a future filled with knowledge, opportunities, and success."
+      ],
+      "quote": "Education is the foundation of a successful life, and determination is the key to achieving greatness.",
+      "signoff": "With best wishes,"
+    },
+    {
+      "role": "Manager",
+      "heading": "Manager's Message",
+      "lead": "Dear Students, Parents, and Esteemed Visitors,",
+      "paragraphs": [
+        "It is my pleasure to welcome you to Suraj Gyan Mahavidyalaya.",
+        "We believe that education is the most powerful tool for shaping a better future. It gives individuals the knowledge, confidence, and skills needed to achieve their dreams and contribute positively to society.",
+        "At Suraj Gyan Mahavidyalaya, our continuous effort is to create an environment where every student feels encouraged to learn, explore, and grow. We believe that every student is unique and has the ability to achieve success with proper guidance, dedication, and hard work.",
+        "Our institution aims to maintain a balance between academic learning, discipline, moral values, and personality development. We are committed to providing students with opportunities that help them become responsible, confident, and capable individuals.",
+        "As a manager, I believe that an institution grows when its students, teachers, and management work together with a common vision. Our focus will always remain on improving the quality of education and creating better opportunities for our students.",
+        "I encourage all students to believe in themselves, stay dedicated to their goals, and face every challenge with courage. Never stop learning, because every new day brings a new opportunity to become better."
+      ],
+      "quote": "A great institution does not just prepare students for examinations; it prepares them for life.",
+      "signoff": "With warm wishes,"
+    },
+    {
+      "role": "Principal",
+      "heading": "Principal's Message",
+      "lead": "Dear Students, Parents, and Esteemed Visitors,",
+      "paragraphs": [
+        "It is a matter of great pride and happiness to welcome you to Suraj Gyan Mahavidyalaya.",
+        "We strongly believe that education is not limited to classrooms, books, and examinations. True education is about developing knowledge, building character, strengthening confidence, and preparing students to face the challenges of the real world.",
+        "At Suraj Gyan Mahavidyalaya, our vision is to provide quality education in a disciplined, supportive, and inspiring environment. We encourage our students to develop their abilities, explore new ideas, think creatively, and become responsible citizens of society.",
+        "Our dedicated faculty members work continuously to guide and motivate students at every step of their educational journey. Along with academic excellence, we give importance to moral values, discipline, respect, teamwork, and overall personality development.",
+        "I believe that every student carries a unique talent and unlimited possibilities. The right guidance, consistent efforts, and a positive attitude can turn those possibilities into remarkable achievements.",
+        "My message to every student is simple: never be afraid of learning, never lose confidence in yourself, and never stop working towards your dreams. Remember, your future is shaped by the choices and efforts you make today.",
+        "Together, let us build an institution where knowledge meets values, dreams meet opportunities, and every student gets the confidence to achieve success."
+      ],
+      "quote": "The purpose of education is not just to create successful individuals, but to develop responsible human beings who make a difference in society.",
+      "signoff": "With best wishes for your bright future,"
+    },
+    {
+      "role": "Vice-Principal",
+      "heading": "Vice-Principal's Message",
+      "lead": "Dear Students, Parents, and Esteemed Visitors,",
+      "paragraphs": [
+        "It is my great pleasure to welcome you to Suraj Gyan Mahavidyalaya, an institution dedicated to learning, growth, and excellence.",
+        "Education is a journey that shapes not only our knowledge but also our personality, thinking, and attitude towards life. We believe that every student deserves an opportunity to discover their potential, develop their skills, and move confidently towards their dreams.",
+        "At Suraj Gyan Mahavidyalaya, we strive to create a learning environment where discipline, dedication, respect, and curiosity are encouraged. Our focus is to help students achieve academic success while also developing the confidence and values required to become responsible members of society.",
+        "We understand that every student has different strengths and abilities. Therefore, we encourage individual growth, creative thinking, teamwork, and continuous learning. Our teachers and staff are always committed to guiding students and supporting them throughout their academic journey.",
+        "I would like to remind every student that success comes through patience, consistent effort, and a willingness to improve. Do not consider challenges as obstacles; consider them opportunities to learn something new and become stronger.",
+        "Let us work together to build a bright future based on knowledge, confidence, discipline, and strong values."
+      ],
+      "quote": "Every small step towards learning brings us closer to a bigger achievement.",
+      "signoff": "With sincere wishes for your success,"
+    }
+  ],
+
+  "media": {
+    "logo": { "webp": "assets/logo.webp", "svg": "assets/logo.svg", "favicon": "assets/favicon.svg" },
+    "hero": [
+      { "type": "image", "src": "assets/images/campus-courtyard.jpg", "title": "Main College Building", "alt": "College building seen from the paved entrance courtyard" },
+      { "type": "image", "src": "assets/images/classroom.jpg", "title": "Smart Classrooms", "alt": "Classroom with blackboard, desks and benches" },
+      { "type": "image", "src": "assets/images/library-reading-room.jpg", "title": "Library & Reading Room", "alt": "College library with reading tables" }
+    ],
+    "photos": [
+      { "type": "image", "src": "assets/images/main-entrance.jpg", "title": "Campus Entrance", "category": "campus" },
+      { "type": "image", "src": "assets/images/indoor-games-room.jpg", "title": "Indoor Games", "category": "sports" },
+      { "type": "image", "src": "assets/images/classroom.jpg", "title": "Classroom Session", "category": "classroom" },
+      { "type": "image", "src": "assets/images/library-reading-room.jpg", "title": "Library", "category": "library" },
+      { "type": "image", "src": "assets/images/computer-lab.jpg", "title": "Computer Lab", "category": "lab" },
+      { "type": "image", "src": "assets/images/annual-function-2025-26.jpg", "title": "Annual Function", "category": "events" }
+    ],
+    "gallery": [
+      { "type": "image", "src": "assets/images/campus-courtyard.jpg", "title": "College Campus View", "alt": "College building and paved courtyard under the campus trees", "category": "campus" },
+      { "type": "image", "src": "assets/images/main-entrance.jpg", "title": "Main Gate", "alt": "Entrance porch with the college name board", "category": "campus" },
+      { "type": "image", "src": "assets/images/corridor.jpg", "title": "Corridor", "alt": "Covered corridor along the classroom block", "category": "campus" },
+      { "type": "image", "src": "assets/images/classroom.jpg", "title": "B.Ed. Classroom", "alt": "Classroom with blackboard, desks and benches", "category": "classroom" },
+      { "type": "image", "src": "assets/images/seminar-hall.jpg", "title": "Seminar Session", "alt": "Seminar hall with a stage, banner and bench seating", "category": "classroom" },
+      { "type": "image", "src": "assets/images/manuscript-workshop.jpg", "title": "Workshop Session", "alt": "Students examining illustrated manuscripts spread out on a table during a workshop session", "category": "classroom" },
+      { "type": "image", "src": "assets/images/library-reading-room.jpg", "title": "Library Reading Room", "alt": "Reading room with wooden tables and cane chairs", "category": "library" },
+      { "type": "image", "src": "assets/images/library-book-shelves.jpg", "title": "Book Shelves", "alt": "Aisles of library shelves stacked with books", "category": "library" },
+      { "type": "image", "src": "assets/images/chemistry-lab-balance.jpg", "title": "Science Laboratory", "alt": "Student weighing a sample in the clean beaker zone of the chemistry lab", "category": "lab" },
+      { "type": "image", "src": "assets/images/computer-lab.jpg", "title": "Computer Lab", "alt": "Desktop computers set up in the computer lab", "category": "lab" },
+      { "type": "image", "src": "assets/images/annual-function-2025-26.jpg", "title": "Annual Function 2025-26", "alt": "Annual Function 2025-26 backdrop with the college stage decoration", "category": "events" },
+      { "type": "image", "src": "assets/images/independence-day.jpg", "title": "Independence Day", "alt": "Independence Day display with the tricolour, freedom-movement newspaper clippings and a 1947 map of India", "category": "events" },
+      { "type": "image", "src": "assets/images/cricket-ground.jpg", "title": "Sports Meet", "alt": "Cricket match in progress on the college ground", "category": "sports" },
+      { "type": "image", "src": "assets/images/indoor-games-room.jpg", "title": "Indoor Games Room", "alt": "Table tennis table, carrom board and chess wall art in the indoor games room", "category": "sports" },
+      { "type": "image", "src": "assets/images/physics-lab.jpg", "title": "Physics Laboratory", "alt": "Students performing an experiment on an optical bench in the physics lab", "category": "lab" },
+      { "type": "image", "src": "assets/images/chemistry-lab.jpg", "title": "Chemistry Laboratory", "alt": "Reagent bottles lined up on the chemistry lab bench", "category": "lab" },
+      { "type": "image", "src": "assets/images/zoology-museum.jpg", "title": "Zoology Museum", "alt": "Student studying preserved specimens in the zoology museum", "category": "lab" },
+      { "type": "image", "src": "assets/images/volleyball-court.jpg", "title": "Volleyball Court", "alt": "Volleyball court on the college sports ground", "category": "sports" },
+      { "type": "image", "src": "assets/images/college-building-grounds.jpg", "title": "College Building & Grounds", "alt": "Upper floors of the college building beside the open ground on the campus", "category": "campus" }
+    ],
+    "videos": [
+      { "type": "youtube", "src": "", "thumbnail": "", "title": "Annual Function Highlights", "category": "events" },
+      { "type": "drive", "src": "", "thumbnail": "", "title": "Campus Tour", "category": "campus" },
+      { "type": "video", "src": "", "thumbnail": "", "title": "Convocation Ceremony", "category": "events" }
+    ],
+    "facilitiesImages": {
+      "smart-classroom": "assets/images/classroom.jpg",
+      "library": "assets/images/library-reading-room.jpg",
+      "science-lab": "assets/images/chemistry-lab-balance.jpg",
+      "computer-lab": "assets/images/computer-lab.jpg",
+      "seminar-hall": "assets/images/seminar-hall.jpg",
+      "sports": "assets/images/cricket-ground.jpg",
+      "common-room": "",
+      "canteen": "",
+      "campus": "assets/images/campus-courtyard.jpg"
+    },
+    "galleryCategories": [
+      { "id": "all", "label": "All" },
+      { "id": "campus", "label": "Campus" },
+      { "id": "classroom", "label": "Classrooms" },
+      { "id": "library", "label": "Library" },
+      { "id": "lab", "label": "Laboratories" },
+      { "id": "events", "label": "Events" },
+      { "id": "sports", "label": "Sports" }
+    ],
+    "affiliation": {
+      "bed":  [{ "type": "image", "src": "", "title": "NCTE recognition — B.Ed.", "alt": "NCTE recognition letter for the B.Ed. programme" }],
+      "bled": [{ "type": "image", "src": "", "title": "NCTE recognition — B.El.Ed.", "alt": "NCTE recognition letter for the B.El.Ed. programme" }],
+      "ba":   [{ "type": "image", "src": "", "title": "University affiliation — B.A.", "alt": "Bundelkhand University affiliation for B.A." }],
+      "bcom": [{ "type": "image", "src": "", "title": "University affiliation — B.Com", "alt": "Bundelkhand University affiliation for B.Com" }],
+      "bsc":  [{ "type": "image", "src": "", "title": "University affiliation — B.Sc.", "alt": "Bundelkhand University affiliation for B.Sc." }],
+      "bca":  [{ "type": "image", "src": "", "title": "University affiliation — B.C.A.", "alt": "Bundelkhand University affiliation for B.C.A." }],
+      "ma":   [{ "type": "image", "src": "", "title": "University affiliation — M.A.", "alt": "Bundelkhand University affiliation for M.A." }]
+    }
+  },
+
+  "pages": [
+    { "file": "index.html", "breadcrumb": "Home", "heading": "Suraj Gyan Mahavidyalaya",
+      "title": "Suraj Gyan Mahavidyalaya, Konch (Jalaun) — B.Ed, B.El.Ed, B.A, B.Com, B.Sc, B.C.A, M.A | Suraj Gyan Mahavidyalaya",
+      "description": "Suraj Gyan Mahavidyalaya, Panchanan Chauraha, Konch (Jalaun), U.P. — affiliated to Bundelkhand University, Jhansi. NCTE approved. Courses: B.Ed, B.El.Ed, B.A., B.Com, B.Sc., B.C.A., M.A. Est. 2010.",
+      "themeColor": "#761F25" },
+    { "file": "pages/about.html", "breadcrumb": "Home › About", "heading": "About the College",
+      "title": "About Us — Suraj Gyan Mahavidyalaya, Konch (Jalaun)",
+      "description": "About Suraj Gyan Mahavidyalaya, Konch (Jalaun): established 2010, affiliated to Bundelkhand University Jhansi, NCTE approved, 3-acre campus with qualified faculty.",
+      "themeColor": "#761F25" },
+    { "file": "pages/academics.html", "breadcrumb": "Home › Academics", "heading": "Academics",
+      "title": "Academics — Programmes, Syllabus & Departments | Suraj Gyan Mahavidyalaya, Konch",
+      "description": "Academics at Suraj Gyan Mahavidyalaya, Konch (Jalaun): B.Ed, B.El.Ed, B.A., B.Com, B.Sc., B.C.A. and M.A. programmes, subjects offered, syllabus prescribed by Bundelkhand University Jhansi, examination scheme and departments.",
+      "themeColor": "#761F25" },
+    { "file": "pages/admissions.html", "breadcrumb": "Home › Admissions", "heading": "Admissions 2026-27",
+      "title": "Admissions 2026-27 — Process, Documents & FAQ | Suraj Gyan Mahavidyalaya Konch",
+      "description": "Admission process at Suraj Gyan Mahavidyalaya, Konch (Jalaun): merit-based admission on 10+2, required documents, step-by-step process, FAQ and enquiry form.",
+      "themeColor": "#761F25" },
+    { "file": "pages/contact.html", "breadcrumb": "Home › Contact", "heading": "Contact Us",
+      "title": "Contact Us — Suraj Gyan Mahavidyalaya, Panchanan Chauraha, Konch (Jalaun) 285205",
+      "description": "Contact Suraj Gyan Mahavidyalaya, Konch (Jalaun): phone +91 94155 88183 / +91 73882 60488, Panchanan Chauraha, Jalaun Road, Konch, U.P. 285205. Map, WhatsApp and enquiry form.",
+      "themeColor": "#761F25" },
+    { "file": "pages/courses.html", "breadcrumb": "Home › Courses", "heading": "Courses Offered",
+      "title": "Courses Offered — B.Ed, B.El.Ed, B.A, B.Com, B.Sc, B.C.A, M.A | Suraj Gyan Mahavidyalaya",
+      "description": "Courses at Suraj Gyan Mahavidyalaya, Konch (Jalaun): B.Ed (100 seats), B.El.Ed (50 seats), B.A. (420 seats), B.Com (60 seats), B.Sc. (240 seats), B.C.A. (60 seats) and M.A. — Master of Arts, affiliated to Bundelkhand University Jhansi.",
+      "themeColor": "#761F25" },
+    { "file": "pages/facilities.html", "breadcrumb": "Home › Facilities", "heading": "Facilities",
+      "title": "Facilities — Library, Labs, Classrooms, Sports | Suraj Gyan Mahavidyalaya, Konch",
+      "description": "Facilities at Suraj Gyan Mahavidyalaya, Konch (Jalaun): library, science and computer labs, smart classrooms, seminar hall, sports, canteen and a 3-acre green campus.",
+      "themeColor": "#761F25" },
+    { "file": "pages/gallery.html", "breadcrumb": "Home › Gallery", "heading": "Gallery",
+      "title": "Gallery — Photos & Videos | Suraj Gyan Mahavidyalaya, Konch (Jalaun)",
+      "description": "Photo and video gallery of Suraj Gyan Mahavidyalaya, Konch (Jalaun): campus, classrooms, library, laboratories, events and sports.",
+      "themeColor": "#761F25" },
+    { "file": "pages/notices.html", "breadcrumb": "Home › Notices (redirect)", "heading": "Notices have moved",
+      "title": "Notices have moved — Students | Suraj Gyan Mahavidyalaya, Konch",
+      "description": "Notices and events now live in the Students section of Suraj Gyan Mahavidyalaya, Konch (Jalaun).",
+      "note": "Redirects to students.html#notices" },
+    { "file": "pages/students.html", "breadcrumb": "Home › Students", "heading": "Students",
+      "title": "Students — Notices, Examination, Scholarships & Support | Suraj Gyan Mahavidyalaya, Konch",
+      "description": "Student corner of Suraj Gyan Mahavidyalaya, Konch (Jalaun): latest notices and events, examination and result links, syllabus, scholarships, certificates, anti-ragging and grievance support.",
+      "themeColor": "#761F25" }
+  ]
+}

@@ -1,0 +1,38 @@
+AFFILIATION DOCUMENTS — UPLOAD FOLDER
+=====================================
+
+Put the eight PDF files in this folder, using these exact names:
+
+  1. bed-ncte.pdf
+     -> B.Ed. NCTE Affiliation
+
+  2. bed-bundelkhand-university-permanent-affiliation.pdf
+     -> B.Ed. Bundelkhand University Permanent Affiliation
+
+  3. land-document.pdf
+     -> Land Document
+
+  4. fire-noc.pdf
+     -> Fire NOC
+
+  5. bled-ncte.pdf
+     -> B.El.Ed. NCTE Affiliation
+
+  6. bled-bundelkhand-university-affiliation.pdf
+     -> B.El.Ed. Bundelkhand University Affiliation
+
+  7. bed-teacher-approval-list.pdf
+     -> B.Ed. Teacher Approval List
+
+  8. bled-teacher-approval-list.pdf
+     -> B.El.Ed. Teacher Approval List
+
+Each card on pages/affiliation.html checks for its own file:
+  - file present  -> card shows "View PDF" + "Download" (opens in a new tab)
+  - file missing  -> card shows "Document Coming Soon" (no broken link)
+
+To replace a document later, simply upload a new PDF with the same
+file name. To use a different file name, edit the matching "file" path
+in affiliation-docs.js in the website root.
+
+Do not delete this note; the folder must exist on the server.

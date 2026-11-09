@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Courses Offered — B.Ed, B.El.Ed, B.A, B.Com, B.Sc, B.C.A, M.A | Suraj Gyan Mahavidyalaya</title>
+  <meta name="description" content="Courses at Suraj Gyan Mahavidyalaya, Konch (Jalaun): B.Ed (100 seats), B.El.Ed (50 seats), B.A. (420 seats), B.Com (60 seats), B.Sc. (240 seats), B.C.A. (60 seats) and M.A. — Master of Arts, affiliated to Bundelkhand University Jhansi.">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#761F25">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <script>(function(){try{document.documentElement.setAttribute("data-theme",localStorage.getItem("sgm-theme")||"light");}catch(e){}})();</script>
+</head>
+<body data-root="../">
+  <script src="../js/page-transition.js"></script>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="site-header"></div>
+
+  <main id="main">
+    <section class="page-banner">
+      <div class="container">
+        <p class="breadcrumb"><a href="../index.html">Home</a> › Courses</p>
+        <h1 data-hi="प्रस्तावित पाठ्यक्रम">Courses Offered</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-hi="अपना पाठ्यक्रम चुनें">Choose Your Course</h2>
+          <p>Eight programmes across teacher education, arts, commerce, science, computing and
+             master's level study. Click any course for details — duration, eligibility and fees are confirmed by the
+             college office.</p>
+        </div>
+
+        <div class="chips" id="courseFilters" role="group" aria-label="Filter courses by group"></div>
+        <div class="grid-3" id="courseGrid"></div>
+      </div>
+    </section>
+
+    <!-- ======================= COURSE DETAIL SOURCES ===================
+         EDIT: these hidden blocks are the "details" shown in the popup.
+         Keep fees / duration / eligibility as "contact the college"
+         unless the college gives you official values to publish.
+    ================================================================== -->
+    <div hidden>
+      <div class="course-src" id="src-bed">
+        <ul class="checklist">
+          <li><strong>Intake:</strong> 100 seats</li>
+          <li><strong>Duration:</strong> As prescribed by the university — contact the college office</li>
+          <li><strong>Eligibility:</strong> As per Bundelkhand University norms — contact the college office; admission may involve merit / entrance test as applicable</li>
+          <li><strong>Fee:</strong> Contact the college for the current session fee structure</li>
+          <li><strong>Affiliation:</strong> Bundelkhand University, Jhansi · <strong>Approval:</strong> NCTE</li>
+        </ul>
+        <p class="muted">The B.Ed. programme prepares graduates for a career in teaching with coursework in
+           child development, pedagogy, subject methodology and practice teaching.</p>
+      </div>
+
+      <div class="course-src" id="src-bled">
+        <ul class="checklist">
+          <li><strong>Intake:</strong> 50 seats</li>
+          <li><strong>Duration:</strong> As prescribed by the university — contact the college office</li>
+          <li><strong>Eligibility:</strong> As per university norms — contact the college office</li>
+          <li><strong>Fee:</strong> Contact the college for the current session fee structure</li>
+          <li><strong>Affiliation:</strong> Bundelkhand University, Jhansi</li>
+        </ul>
+        <p class="muted">Elementary-level teacher training focused on child development, activity-based
+           learning and classroom practice for primary and elementary stages.</p>
+      </div>
+
+      <div class="course-src" id="src-ba">
+        <ul class="checklist">
+          <li><strong>Intake:</strong> As per university norms — contact the college office</li>
+          <li><strong>Duration:</strong> Contact the college office</li>
+          <li><strong>Eligibility:</strong> 10+2 merit-based admission as per university rules — contact the office</li>
+          <li><strong>Fee:</strong> Contact the college for the current session fee structure</li>
+          <li><strong>Subjects:</strong> Combinations offered by the university, as available at the college</li>
+        </ul>
+      </div>
+
+      <div class="course-src" id="src-bcom">
+        <ul class="checklist">
+          <li><strong>Intake:</strong> As per university norms — contact the college office</li>
+          <li><strong>Duration:</strong> Contact the college office</li>
+          <li><strong>Eligibility:</strong> 10+2 merit-based admission as per university rules — contact the office</li>
+          <li><strong>Fee:</strong> Contact the college for the current session fee structure</li>
+          <li><strong>Covers:</strong> Accountancy, business studies and economics fundamentals</li>
+        </ul>
+      </div>
+
+      <div class="course-src" id="src-bsc">
+        <ul class="checklist">
+          <li><strong>Intake:</strong> As per university norms — contact the college office</li>
+          <li><strong>Duration:</strong> Contact the college office</li>
+          <li><strong>Eligibility:</strong> 10+2 merit-based admission as per university rules — contact the office</li>
+          <li><strong>Fee:</strong> Contact the college for the current session fee structure</li>
+          <li><strong>Subjects:</strong> Science combinations offered by the university, as available at the college</li>
+        </ul>
+      </div>
+
+      <div class="course-src" id="src-bca">
+        <ul class="checklist">
+          <li><strong>Intake:</strong> As per university norms — contact the college office</li>
+          <li><strong>Duration:</strong> Contact the college office</li>
+          <li><strong>Eligibility:</strong> As per university rules — contact the college office</li>
+          <li><strong>Fee:</strong> Contact the college for the current session fee structure</li>
+          <li><strong>Covers:</strong> Programming, databases, web technologies and software projects</li>
+        </ul>
+      </div>
+
+      <div class="course-src" id="src-ma">
+        <ul class="checklist">
+          <li><strong>Intake:</strong> As per university norms — contact the college office</li>
+          <li><strong>Duration:</strong> Contact the college office</li>
+          <li><strong>Eligibility:</strong> Graduation as per university rules — contact the college office</li>
+          <li><strong>Fee:</strong> Contact the college for the current session fee structure</li>
+          <li><strong>Subjects offered:</strong> Hindi, English, Geography, Political Science</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- ========================= COURSE MODAL ========================= -->
+    <dialog id="courseModal" aria-labelledby="modalTitle">
+      <div class="modal-head">
+        <h2 id="modalTitle">Course details</h2>
+        <button class="modal-close" type="button" data-close aria-label="Close details">&#10005;</button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+    </dialog>
+
+    <section class="section alt">
+      <div class="container">
+        <div class="cta-band reveal">
+          <div>
+            <h2 data-hi="प्रवेश संबंधी जानकारी">Need admission details?</h2>
+            <p>Seats, dates and fees for 2026-27 — get them straight from the college office.</p>
+          </div>
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="admissions.html" data-hi="प्रवेश पृष्ठ">Admission process</a>
+            <a class="btn btn-outline-light" href="contact.html" data-hi="संपर्क करें">Talk to us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="../media-config.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../affiliation-docs.js"></script>
+  <script src="../js/affiliation.js"></script>
+</body>
+</html>
