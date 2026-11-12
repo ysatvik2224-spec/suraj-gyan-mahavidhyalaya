@@ -1,0 +1,10 @@
+{
+  "repo": "ysatvik2224-spec/suraj-gyan-mahavidhyalaya",
+  "repo_id": 1451154885,
+  "language_composition": [
+    { "name": "HTML", "percent": 41.1 },
+    { "name": "JavaScript", "percent": 31.3 },
+    { "name": "CSS", "percent": 26.4 },
+    { "name": "PowerShell", "percent": 1.2 }
+  ]
+}
