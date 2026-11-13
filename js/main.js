@@ -59,15 +59,9 @@
     { id: "ba", icon: "\uD83C\uDFAD", name: "B.A. — Bachelor of Arts", group: "Arts & Commerce", seats: 420,
       blurb: "Undergraduate arts degree with subjects offered by the university, as per availability at the college.\nSubjects offered: Hindi, English, History, Geography, Home Science, Political Science, Education." },
     { id: "bcom", icon: "\uD83D\uDCB0", name: "B.Com — Bachelor of Commerce", group: "Arts & Commerce", seats: 60,
-      blurb: "Commerce graduation covering accountancy, business studies and economics fundamentals." },
-    { id: "bsc", icon: "\uD83E\uDDEA", name: "B.Sc. — Bachelor of Science", group: "Science & Computing", seats: 240,
-      blurb: "Science graduation with subject combinations offered by the university, as per availability.\nSubjects offered: Physics, Chemistry, Mathematics, Zoology, Botany." },
-    { id: "bca", icon: "\uD83D\uDCBB", name: "B.C.A. — Bachelor of Computer Applications", group: "Science & Computing", seats: 60,
-      blurb: "Computer applications degree building programming, database and software development skills." },
-    { id: "ma", icon: "\u2705", name: "M.A. — Master of Arts", group: "Master's", seats: null,
-      blurb: "Postgraduate degree in the arts, building on a graduation background with advanced specialisation and research orientation.\nSubjects offered: Hindi, English, Geography, Political Science." }
+      blurb: "Commerce graduation covering accountancy, business studies and economics fundamentals." }
   ];
-  var COURSE_GROUPS = ["Teacher Education", "Arts & Commerce", "Science & Computing", "Library Science", "Master's"];
+  var COURSE_GROUPS = ["Teacher Education", "Arts & Commerce"];
 
   /* ======================= EDIT: FACILITIES (9) ======================= */
   var FACILITIES = [

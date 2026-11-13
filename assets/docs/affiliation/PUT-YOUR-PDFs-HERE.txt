@@ -1,7 +1,7 @@
 AFFILIATION DOCUMENTS — UPLOAD FOLDER
 =====================================
 
-Put the eight PDF files in this folder, using these exact names:
+Put the ten PDF files in this folder, using these exact names:
 
   1. bed-ncte.pdf
      -> B.Ed. NCTE Affiliation
@@ -26,6 +26,12 @@ Put the eight PDF files in this folder, using these exact names:
 
   8. bled-teacher-approval-list.pdf
      -> B.El.Ed. Teacher Approval List
+
+  9. society-bye-laws.pdf
+     -> Society Bye-laws
+
+ 10. society-affiliation.pdf
+     -> Society Affiliation
 
 Each card on pages/affiliation.html checks for its own file:
   - file present  -> card shows "View PDF" + "Download" (opens in a new tab)

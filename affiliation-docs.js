@@ -65,5 +65,17 @@ window.AFFILIATION_DOCS = [
     title: "B.El.Ed. Teacher Approval List",
     note: "Approved teaching staff list for the B.El.Ed. programme.",
     file: "assets/docs/affiliation/bled-teacher-approval-list.pdf"
+  },
+  {
+    id: "society-bye-laws",
+    title: "Society Bye-laws",
+    note: "Registered bye-laws / rules (नियमावली) of the parent society.",
+    file: "assets/docs/affiliation/society-bye-laws.pdf"
+  },
+  {
+    id: "society-affiliation",
+    title: "Society Affiliation",
+    note: "Society registration / affiliation documents of the parent society.",
+    file: "assets/docs/affiliation/society-affiliation.pdf"
   }
 ];
