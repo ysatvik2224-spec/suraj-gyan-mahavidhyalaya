@@ -1,7 +1,7 @@
 AFFILIATION DOCUMENTS — UPLOAD FOLDER
 =====================================
 
-Put the ten PDF files in this folder, using these exact names:
+Put the thirteen PDF files in this folder, using these exact names:
 
   1. bed-ncte.pdf
      -> B.Ed. NCTE Affiliation
@@ -32,6 +32,15 @@ Put the ten PDF files in this folder, using these exact names:
 
  10. society-affiliation.pdf
      -> Society Affiliation
+
+ 11. land-affidavit.pdf
+     -> Land Affidavit
+
+ 12. bcc.pdf
+     -> BCC (Building Completion Certificate)
+
+ 13. building-plan-blueprint.pdf
+     -> Blue Print of Approved Building Plan
 
 Each card on pages/affiliation.html checks for its own file:
   - file present  -> card shows "View PDF" + "Download" (opens in a new tab)

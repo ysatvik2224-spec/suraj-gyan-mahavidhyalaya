@@ -77,5 +77,23 @@ window.AFFILIATION_DOCS = [
     title: "Society Affiliation",
     note: "Society registration / affiliation documents of the parent society.",
     file: "assets/docs/affiliation/society-affiliation.pdf"
+  },
+  {
+    id: "land-affidavit",
+    title: "Land Affidavit",
+    note: "Affidavit for the college land, as filed with the competent authority.",
+    file: "assets/docs/affiliation/land-affidavit.pdf"
+  },
+  {
+    id: "bcc",
+    title: "BCC (Building Completion Certificate)",
+    note: "Building Completion Certificate for the college building.",
+    file: "assets/docs/affiliation/bcc.pdf"
+  },
+  {
+    id: "building-plan-blueprint",
+    title: "Blue Print of Approved Building Plan",
+    note: "Approved building plan (blue print) sanctioned for the college.",
+    file: "assets/docs/affiliation/building-plan-blueprint.pdf"
   }
 ];
