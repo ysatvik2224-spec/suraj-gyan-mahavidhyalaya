@@ -16,7 +16,7 @@
     address: "Panchanan Chauraha, Jalaun Road, Konch, Jalaun, Uttar Pradesh 285205",
     phones: ["+91 94155 88183", "+91 73882 60488"],
     whatsapp: "919415588183",
-    email: "info@surajgyanmahavidyalaya.edu.in",
+    email: "sgmedutech@gmail.com",
     established: 2010,
     affiliation: "Bundelkhand University, Jhansi",
     approval: "NCTE Approved",
